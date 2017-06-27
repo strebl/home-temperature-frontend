@@ -1,6 +1,6 @@
 # temperature-graph
 
-> Home Temperature Visualsization
+> Home Temperature Visualization
 
 ![Screenshot](static/screenshot.png)
 
