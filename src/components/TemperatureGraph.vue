@@ -66,6 +66,14 @@ export default {
             lineStyle: {
               type: 'dashed'
             }
+          },
+          formatter: function (points) {
+            return [
+              new Date(points[0].value[0]).toLocaleString('de-de').slice(0, -3),
+              ...points.map(point => {
+                return [point.marker, point.seriesName, ': ', point.value[1]].join('')
+              })
+            ].join('<br>')
           }
         },
         legend: {
