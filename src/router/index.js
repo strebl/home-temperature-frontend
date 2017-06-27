@@ -21,6 +21,10 @@ export default new Router({
     {
       path: '/month',
       component: TemperatureGraph
+    },
+    {
+      path: '/year',
+      component: TemperatureGraph
     }
   ]
 })
