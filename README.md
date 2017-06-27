@@ -1,6 +1,8 @@
-# temperature-graph
+# Temperaute Graph
 
-> Home Temperature Visualization
+> A Vue.js and InfluxDB based temperature graph for my Particle.io sensors
+
+This is the frontend repository. The backend is located [here](https://github.com/strebl/home-temperature-backend).
 
 ![Screenshot](static/screenshot.png)
 
