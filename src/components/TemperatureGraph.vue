@@ -139,6 +139,7 @@ export default {
           return {
             name: sensorName,
             type: 'line',
+            smooth: true,
             data: this.sensorData[sensors[sensorName]],
             symbolSize: 7,
             hoverAnimation: false,
