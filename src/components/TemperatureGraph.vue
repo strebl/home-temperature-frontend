@@ -188,7 +188,7 @@ export default {
       })
     },
     fetchTemperatureData () {
-      axios.get(`https://api.temperature.strebel.xyz/api/temperature${this.$route.path}?api_token=Kr4DnHioPTjFxBKfohtH5JME9uHDudu6UL8vuUEjflhnQDAnjB9p8CavURyZ`)
+      axios.get(`https://api.temperature.strebel.xyz/api/temperature/${this.$route.params.range}?api_token=Kr4DnHioPTjFxBKfohtH5JME9uHDudu6UL8vuUEjflhnQDAnjB9p8CavURyZ`)
         .then(({data}) => {
           data.map(data => {
             this.sensorData[data.sensor] = data.data

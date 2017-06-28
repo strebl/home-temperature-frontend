@@ -11,19 +11,7 @@ export default new Router({
       redirect: '/day'
     },
     {
-      path: '/day',
-      component: TemperatureGraph
-    },
-    {
-      path: '/week',
-      component: TemperatureGraph
-    },
-    {
-      path: '/month',
-      component: TemperatureGraph
-    },
-    {
-      path: '/year',
+      path: '/:range',
       component: TemperatureGraph
     }
   ]
