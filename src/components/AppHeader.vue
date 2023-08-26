@@ -15,8 +15,8 @@
           </h2>
           <div class="column is-narrow">
             <div class="buttons">
-              <a href="/" class="button is-white">Temperature</a>
-              <a href="/humidity" class="button is-white">Humidity</a>
+              <router-link to="/" class="button is-white">Temperature</router-link>
+              <router-link to="/humidity" class="button is-white">Humidity</router-link>
             </div>
           </div>
         </div>
