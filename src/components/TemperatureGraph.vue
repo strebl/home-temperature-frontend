@@ -33,7 +33,7 @@ axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest'
 
 const sensors = {
   'Büro': '1d003e000247343337373739', // Blue
-  'Wohnzimmer': '1f002a001147343339383037', // Black
+  'Wohnzimmer': 'e00fce683ef6d5661611d84c', // Black
   'Schlafzimmer': '2d0021000347343233323032' // Red
 }
 
