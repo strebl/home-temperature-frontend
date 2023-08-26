@@ -11,8 +11,14 @@
             Temperature
           </h1>
           <h2 class="subtitle">
-            Temperature in my home
+            Temperature & Humidity in my home
           </h2>
+          <div class="column is-narrow">
+            <div class="buttons">
+              <a href="/" class="button is-white">Temperature</a>
+              <a href="/humidity" class="button is-white">Humidity</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
